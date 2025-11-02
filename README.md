@@ -1,24 +1,24 @@
-# ⚡ Energy Market Trading Decision Model
+#  Energy Market Trading Decision Model
 
 This project builds a simple model to decide whether to **BUY**, **SELL**, or **HOLD** in the Nordic balancing (regulation) market.  
 The decision is made using **expected settlement prices** predicted from historical market data.
 
 
-## 🎯 Goal
+##  Goal
 
 The goal is to **maximize expected profit** by choosing the best action (Buy, Sell, or Hold) before the delivery hour (17:00–18:00).  
 The decision is based on the probability that the **total regulation energy** will be **positive** — meaning the market needs more electricity (system short).
 
 
 
-## 📦 Files
+## Files
 
 - `EnergyMarketModel.ipynb` — full notebook with feature creation, training, and decision logic  
 - `TASK.pdf` — original assignment description  
 
 
 
-## 🧩 Tools
+## Tools
 
 - Python (pandas, scikit-learn, matplotlib)  
 - Logistic Regression classifier
